@@ -1,0 +1,92 @@
+/* Debug */
+
+/* Common */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+/* header */
+
+header {
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.list-inline > li{
+    list-style: none;
+    display: inline-block;
+    padding: 10 10 10 0;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    margin: 0 3px;
+    font-size: 18px;
+}
+
+.jumbotron {
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+/* main */
+
+.container2.clearfix {
+    background-color: blue;
+    margin-top: 25px;
+}
+
+.top {
+    height: 100px;
+    background-color: lightsteelblue;
+}
+
+.left,
+.right {
+    float: left;
+    width: 25%;
+    height: 500px;
+    background-color: lightsteelblue;
+    margin: 20px 0; 
+}
+
+.middle {
+    float: left;
+    width: 40%;
+    height: 500px;
+    background-color: lightsteelblue;
+    margin: 20px 5%;
+}
+
+
+/* footer */
+footer {
+    height: 100px;
+    background-color: darkviolet;
+    margin-top: 25px;
+}
+
+
+
