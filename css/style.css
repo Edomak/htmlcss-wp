@@ -8,6 +8,10 @@
     margin:0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -78,8 +82,6 @@ header {
     background-color: rgba(0, 140, 213, 0.2);
 }
 
-
-
 /* main */
 
 .container2.clearfix {
@@ -128,8 +130,8 @@ header {
 
 
 .content {
-    margin-top: 240px;
-    padding: 5px 5px;
+    margin-top: 280px;
+    padding: 10px 10px;
     color: grey;
 }
 
@@ -141,18 +143,19 @@ header {
 }
 
 /* footer */
+
 footer {
     height: 100px;
     margin-top: 25px;
 }
 
 footer p {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
 footer span {
-    font-size: 30px;
+    font-size: 40px;
     color: red;
 }
 
