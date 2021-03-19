@@ -113,10 +113,10 @@ header {
     background-image: url(../img/img-1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-}
+ }
 
 .right {
-    background-image: url(../img/img-3.jpg);
+    background-image: url(../img/img-6.jpg);
     background-repeat: no-repeat;
     background-size: contain;
  }
@@ -125,7 +125,7 @@ header {
     float: left;
     width: 40%;
     margin: 20px 5%;
-    background-image: url(../img/img-3.jpg);
+    background-image: url(../img/banner-2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
  }
