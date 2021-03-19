@@ -95,6 +95,10 @@ header {
     padding: 10px 0;
 }
 
+.title h2:hover {
+    color: royalblue;
+}
+
 .black-text {
     color: black;
     font-size: 40px;
@@ -131,6 +135,10 @@ header {
     margin-top: 280px;
     padding: 10px 10px;
     color: grey;
+}
+
+.content h3:hover {
+    color: royalblue;
 }
 
 .content > h3 {
