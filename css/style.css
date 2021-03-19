@@ -88,6 +88,7 @@ header {
 
 .top {
     height: 100px;
+    clear: both;
 }
 
 .title {
@@ -105,33 +106,54 @@ header {
 }
 
 .left {
-    
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.right {
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+
+ .middle {
+    float: left;
+    width: 40%;
+    margin: 20px 5%;
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+
+
+.content {
+    margin-top: 240px;
+    padding: 5px 5px;
+    color: grey;
 }
 
 .left,
 .right {
     float: left;
     width: 25%;
-    height: 500px;
-    background-color: lightsteelblue;
     margin: 20px 0; 
 }
-
-.middle {
-    float: left;
-    width: 40%;
-    height: 500px;
-    background-color: lightsteelblue;
-    margin: 20px 5%;
-}
-
 
 /* footer */
 footer {
     height: 100px;
-    background-color: darkviolet;
     margin-top: 25px;
 }
 
+footer p {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer span {
+    font-size: 30px;
+    color: red;
+}
 
 
