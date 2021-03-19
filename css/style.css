@@ -37,10 +37,6 @@ header {
     border-radius: 20px;
 }
 
-.logo img:hover {
-    background-color: royalblue;
-}
-
 .list-inline > li{
     list-style: none;
     display: inline-block;
@@ -59,6 +55,8 @@ header {
     cursor: pointer;
     color: royalblue;
 }
+
+/* jumbotron */
 
 .jumbotron {
     height: 400px;
@@ -133,6 +131,10 @@ header {
     margin-top: 280px;
     padding: 10px 10px;
     color: grey;
+}
+
+.content > h3 {
+    margin-bottom: 10px;
 }
 
 .left,
